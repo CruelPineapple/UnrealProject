@@ -874,3 +874,303 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.24-04.15.07:077][709]AssetCheck: New page: 资产保存：多个资产
 [2020.10.24-04.15.07:077][709]LogContentValidation: Display: 正在验证World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
 [2020.10.24-04.15.07:077][709]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2020.10.24-04.17.14:999][660]LogAssetEditorSubsystem: Opening Asset editor for World /Game/beginPlay.beginPlay
+[2020.10.24-04.17.15:017][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.10.24-04.17.15:019][660]Cmd: MAP LOAD FILE="C:/Users/20150/Documents/Unreal Projects/model/Content/beginPlay.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.24-04.17.15:019][660]LightingResults: New page: 光照构建
+[2020.10.24-04.17.15:019][660]LoadErrors: New page: 正在加载地图：beginPlay.umap
+[2020.10.24-04.17.15:020][660]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.17.15:020][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.17.15:020][660]MapCheck: New page: 地图检测
+[2020.10.24-04.17.15:020][660]LightingResults: New page: 光照构建
+[2020.10.24-04.17.15:037][660]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000236156DA600), frame # 31660
+[2020.10.24-04.17.15:037][660]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023625791800), frame # 31660
+[2020.10.24-04.17.15:038][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.10.24-04.17.15:042][660]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.24-04.17.15:042][660]LogAIModule: Creating AISystem for world beginPlay
+[2020.10.24-04.17.15:042][660]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023625982C00), frame # 31660
+[2020.10.24-04.17.15:042][660]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023692942AC0), frame # 31660
+[2020.10.24-04.17.15:061][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.10.24-04.17.15:075][660]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.24-04.17.15:075][660]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.126毫秒。
+[2020.10.24-04.17.15:076][660]LogFileHelpers: Loading map 'beginPlay' took 0.056
+[2020.10.24-04.18.27:934][622]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.10.24-04.18.29:002][622]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.10.24-04.18.53:104][622]LogSlate: Window '创建动画蓝图' being destroyed
+[2020.10.24-04.19.13:346][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.10.24-04.19.13:350][ 70]LogMetaData: Removing '/Game/playerAnim.playerAnim:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2020.10.24-04.19.13:350][ 70]LogMetaData: Removing '/Game/playerAnim.SKEL_playerAnim_C' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2020.10.24-04.19.13:350][ 70]LogMetaData: Removing '/Game/playerAnim.playerAnim_C' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2020.10.24-04.19.13:350][ 70]LogMetaData: Removing '/Game/playerAnim.playerAnim:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2020.10.24-04.19.13:350][ 70]LogMetaData: Removing '/Game/playerAnim.playerAnim:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/NewAnimBlueprint.PackageMetaData'
+[2020.10.24-04.19.13:497][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/playerAnim" FILE="C:/Users/20150/Documents/Unreal Projects/model/Content/playerAnim.uasset" SILENT=true
+[2020.10.24-04.19.13:512][ 70]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/playerAnim93CE1FFF4F2376BA424985B9EF48F268.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Content/playerAnim.uasset'
+[2020.10.24-04.19.13:711][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.10.24-04.19.13:744][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.10.24-04.19.13:764][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.24-04.19.13:810][ 70]AssetCheck: New page: 资产保存：playerAnim
+[2020.10.24-04.19.13:810][ 70]LogContentValidation: Display: 正在验证AnimBlueprint /Game/playerAnim.playerAnim
+[2020.10.24-04.20.07:936][475]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/playerAnim.playerAnim
+[2020.10.24-04.20.07:957][475]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.10.24-04.20.08:236][475]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.20.08:247][475]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.10.24-04.20.08:676][475]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.27.23:553][262]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_Run.SK_Centroid_Rifle_Run
+[2020.10.24-04.27.23:590][262]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.27.23:617][262]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.27.24:313][262]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.27.33:175][523]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.27.33:175][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.27.33:290][523]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.27.33:290][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.29.00:625][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.10.24-04.29.00:626][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/beginPlay' took 0.095
+[2020.10.24-04.29.00:627][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/playerAnim] ([1] browsable assets)...
+[2020.10.24-04.29.00:669][ 63]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/playerAnim.playerAnim]
+[2020.10.24-04.29.00:669][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/playerAnim]
+[2020.10.24-04.29.00:669][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/playerAnim" FILE="C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.10.24-04.29.00:684][ 63]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/playerAnim_Auto204F2FAAA4C8C0EFC076F78BE71EA5EF1.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto2.uasset'
+[2020.10.24-04.29.00:685][ 63]LogFileHelpers: Auto-saving content packages took 0.059
+[2020.10.24-04.39.01:195][102]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.10.24-04.39.01:197][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/beginPlay' took 0.055
+[2020.10.24-04.39.01:198][102]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/playerAnim] ([1] browsable assets)...
+[2020.10.24-04.39.01:237][102]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/playerAnim.playerAnim]
+[2020.10.24-04.39.01:237][102]OBJ SavePackage: Finished generating thumbnails for package [/Game/playerAnim]
+[2020.10.24-04.39.01:237][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/playerAnim" FILE="C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.10.24-04.39.01:255][102]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/playerAnim_Auto30CED1E054449BB2C00B098A1D80698F1.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto3.uasset'
+[2020.10.24-04.39.01:255][102]LogFileHelpers: Auto-saving content packages took 0.058
+[2020.10.24-04.52.35:462][663]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.52.39:197][777]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_Run.SK_Centroid_Rifle_Run
+[2020.10.24-04.52.39:199][777]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.52.39:224][777]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.52.39:578][777]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.52.58:039][164]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_MoveNormal.SK_Centroid_Rifle_T-FPP_MoveNormal
+[2020.10.24-04.53.02:798][299]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.02:798][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.02:895][299]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.02:895][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.07:667][445]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeA_Run.SK_Centroid_Rifle_T-FPP_TypeA_Run
+[2020.10.24-04.53.07:670][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.53.07:696][445]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.53.08:157][445]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.53.10:733][522]LogSlate: Window 'SK_Centroid_Rifle_T-FPP_TypeA_Run' being destroyed
+[2020.10.24-04.53.10:775][522]LogSlate: Window 'SK_Centroid_Rifle_T-FPP_TypeA_Run' being destroyed
+[2020.10.24-04.53.10:792][522]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.10:792][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.10:800][522]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.10:801][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.10:913][522]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.10:913][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.10:932][522]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.10:932][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.11:007][522]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.11:007][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.12:834][576]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/playerAnim.playerAnim
+[2020.10.24-04.53.12:839][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.53.13:177][576]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.53.13:585][576]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.24-04.53.13:589][576]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.53.19:231][747]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeC_Idle.SK_Centroid_Rifle_T-FPP_TypeC_Idle
+[2020.10.24-04.53.19:235][747]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.53.19:262][747]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.53.19:698][747]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.53.23:441][857]LogSlate: Window 'SK_Centroid_Rifle_T-FPP_TypeC_Idle' being destroyed
+[2020.10.24-04.53.23:479][857]LogSlate: Window 'SK_Centroid_Rifle_T-FPP_TypeC_Idle' being destroyed
+[2020.10.24-04.53.23:502][857]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.23:502][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.23:508][857]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.23:508][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.23:600][857]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.23:600][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.23:615][857]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.23:615][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.23:692][857]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.23:692][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.24:901][897]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/playerAnim.playerAnim
+[2020.10.24-04.53.24:907][897]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.53.25:216][897]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.53.25:664][897]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.53.29:757][ 22]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeC_Idle.SK_Centroid_Rifle_T-FPP_TypeC_Idle
+[2020.10.24-04.53.29:760][ 22]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.53.29:788][ 22]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.53.30:174][ 22]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.53.34:927][168]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.34:927][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.53.35:042][168]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.53.35:042][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.08:355][959]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_MoveNormal.SK_Centroid_Rifle_T-FPP_MoveNormal
+[2020.10.24-04.54.08:359][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.54.08:387][959]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.54.08:790][959]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.54.10:738][ 18]LogSlate: Window 'SK_Centroid_Rifle_T-FPP_MoveNormal' being destroyed
+[2020.10.24-04.54.10:779][ 18]LogSlate: Window 'SK_Centroid_Rifle_T-FPP_MoveNormal' being destroyed
+[2020.10.24-04.54.10:791][ 18]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.10:791][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.10:796][ 18]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.10:796][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.10:906][ 18]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.10:906][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.10:919][ 18]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.10:920][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.11:001][ 18]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.11:001][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.12:511][ 52]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/playerAnim.playerAnim
+[2020.10.24-04.54.12:517][ 52]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.54.12:837][ 52]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.54.13:289][ 52]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.54.14:818][100]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_MoveNormal.SK_Centroid_Rifle_T-FPP_MoveNormal
+[2020.10.24-04.54.14:821][100]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.54.14:851][100]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.54.15:207][100]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.54.17:700][173]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeC_Idle.SK_Centroid_Rifle_T-FPP_TypeC_Idle
+[2020.10.24-04.54.26:311][435]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.26:311][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.26:429][435]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.26:429][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.27:295][462]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_MoveNormal.SK_Centroid_Rifle_T-FPP_MoveNormal
+[2020.10.24-04.54.27:298][462]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.54.27:325][462]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.54.27:788][462]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-04.54.32:464][605]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.32:464][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.32:556][605]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-04.54.32:556][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-04.54.57:039][685]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.10.24-04.54.57:047][685]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/beginPlay' took 0.101
+[2020.10.24-04.54.57:047][685]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/playerAnim] ([1] browsable assets)...
+[2020.10.24-04.54.57:164][685]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/playerAnim.playerAnim]
+[2020.10.24-04.54.57:164][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/playerAnim]
+[2020.10.24-04.54.57:165][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/playerAnim" FILE="C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2020.10.24-04.54.57:187][685]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/playerAnim_Auto49D5352094172F95411F99D82B6D2BF2A.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto4.uasset'
+[2020.10.24-04.54.57:188][685]LogFileHelpers: Auto-saving content packages took 0.142
+[2020.10.24-04.56.55:059][547]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/SK_Mannequin.SK_Mannequin
+[2020.10.24-04.56.55:062][547]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-04.56.55:089][547]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-04.56.55:424][548]LogRenderer: Reallocating scene render targets to support 808x404 Format 10 NumSamples 1 (Frame:1).
+[2020.10.24-04.59.09:037][801]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-04.59.09:141][801]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2020.10.24-05.00.24:311][606]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.00.24:362][606]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.10.24-05.04.57:690][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.10.24-05.04.57:697][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/beginPlay' took 0.027
+[2020.10.24-05.04.57:697][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/playerAnim] ([1] browsable assets)...
+[2020.10.24-05.04.57:735][729]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/playerAnim.playerAnim]
+[2020.10.24-05.04.57:735][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/playerAnim]
+[2020.10.24-05.04.57:735][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/playerAnim" FILE="C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2020.10.24-05.04.57:762][729]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/playerAnim_Auto58E6C809C4E964DDE1A4DAF834E30FCC4.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto5.uasset'
+[2020.10.24-05.04.57:763][729]LogFileHelpers: Auto-saving content packages took 0.065
+[2020.10.24-05.10.47:462][861]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.10.47:508][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.10.24-05.13.46:573][149]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.13.46:624][149]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.10.24-05.14.21:209][752]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.14.21:257][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.10.24-05.15.01:198][241]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.10.24-05.15.01:200][241]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/beginPlay' took 0.023
+[2020.10.24-05.15.01:200][241]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/playerAnim] ([1] browsable assets)...
+[2020.10.24-05.15.01:226][241]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/playerAnim.playerAnim]
+[2020.10.24-05.15.01:226][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/playerAnim]
+[2020.10.24-05.15.01:226][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/playerAnim" FILE="C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.10.24-05.15.01:261][241]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/playerAnim_Auto6DC7F1CE146D06C5F2BD258B9D674F291.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Saved/Autosaves/Game/playerAnim_Auto6.uasset'
+[2020.10.24-05.15.01:261][241]LogFileHelpers: Auto-saving content packages took 0.062
+[2020.10.24-05.15.28:313][973]LogSlate: Took 0.000648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.10.24-05.18.16:102][567]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_MoveNormal.SK_Centroid_Rifle_T-FPP_MoveNormal
+[2020.10.24-05.18.16:105][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.18.16:141][567]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.18.16:552][567]LogRenderer: Reallocating scene render targets to support 912x420 Format 10 NumSamples 1 (Frame:1).
+[2020.10.24-05.18.16:552][567]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.18.20:138][646]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.18.20:138][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.18.20:287][646]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.18.20:287][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.18.20:339][647]LogRenderer: Reallocating scene render targets to support 912x668 Format 10 NumSamples 1 (Frame:215).
+[2020.10.24-05.18.22:647][691]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeC_Idle.SK_Centroid_Rifle_T-FPP_TypeC_Idle
+[2020.10.24-05.18.22:651][691]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.18.22:687][691]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.18.23:217][691]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.18.28:503][808]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.18.28:503][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.18.28:651][808]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.18.28:651][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.18.38:356][ 28]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeA_Run.SK_Centroid_Rifle_T-FPP_TypeA_Run
+[2020.10.24-05.18.38:360][ 28]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.18.38:394][ 28]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.18.38:824][ 28]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.18.41:778][ 92]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.18.41:779][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.18.41:930][ 92]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.18.41:930][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.18.45:388][168]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_Run.SK_Centroid_Rifle_Run
+[2020.10.24-05.18.45:391][168]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.18.45:426][168]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.18.45:952][168]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.18.48:051][215]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.18.48:051][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.18.48:201][215]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.18.48:201][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.19.19:287][895]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.19.19:365][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.10.24-05.19.59:952][842]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.20.00:013][842]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2020.10.24-05.20.16:947][229]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.20.17:006][229]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.10.24-05.23.12:743][659]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.23.12:810][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.10.24-05.23.50:888][875]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeC_Idle.SK_Centroid_Rifle_T-FPP_TypeC_Idle
+[2020.10.24-05.23.50:891][875]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.23.50:916][875]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.23.51:342][875]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.23.55:637][971]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.23.55:637][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.23.55:819][971]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.23.55:819][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.24.02:985][128]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeA_Idle.SK_Centroid_Rifle_T-FPP_TypeA_Idle
+[2020.10.24-05.24.02:988][128]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.24.03:034][128]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.24.03:694][128]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.24.06:370][182]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.24.06:370][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.24.06:537][182]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.24.06:537][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.24.10:913][274]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeC_Idle.SK_Centroid_Rifle_T-FPP_TypeC_Idle
+[2020.10.24-05.24.10:917][274]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.24.10:959][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.24.11:491][274]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.24.13:004][306]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.24.13:004][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.24.13:179][306]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.24.13:179][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.24.25:258][578]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeC_Idle.SK_Centroid_Rifle_T-FPP_TypeC_Idle
+[2020.10.24-05.24.25:262][578]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.24.25:303][578]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.24.25:803][578]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.24.33:551][729]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeA_Idle.SK_Centroid_Rifle_T-FPP_TypeA_Idle
+[2020.10.24-05.24.40:003][853]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.24.40:003][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.24.40:167][853]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.24.40:167][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.24.50:509][ 67]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.24.50:607][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.10.24-05.25.34:690][ 68]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_Run.SK_Centroid_Rifle_Run
+[2020.10.24-05.25.34:694][ 68]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.24-05.25.34:734][ 68]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_55:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.24-05.25.35:245][ 68]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.24-05.25.40:586][175]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/SK_Centroid_Rifle_T-FPP_TypeC_Idle.SK_Centroid_Rifle_T-FPP_TypeC_Idle
+[2020.10.24-05.25.46:390][287]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.25.46:390][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.25.46:562][287]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2020.10.24-05.25.46:562][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.24-05.26.12:024][847]BlueprintLog: New page: 编译playerAnim
+[2020.10.24-05.26.12:110][847]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.10.24-05.26.31:110][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/playerAnim" FILE="C:/Users/20150/Documents/Unreal Projects/model/Content/playerAnim.uasset" SILENT=true
+[2020.10.24-05.26.31:179][262]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/playerAnimCEC8B8B44AAAA0591262899EA2C1A026.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Content/playerAnim.uasset'
+[2020.10.24-05.26.31:198][262]AssetCheck: New page: 资产保存：playerAnim
+[2020.10.24-05.26.31:198][262]LogContentValidation: Display: 正在验证AnimBlueprint /Game/playerAnim.playerAnim
+[2020.10.24-05.26.36:156][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/beginPlay" FILE="C:/Users/20150/Documents/Unreal Projects/model/Content/beginPlay.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.24-05.26.36:186][392]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.10.24-05.26.36:237][392]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/beginPlayEE23B00640634C96F5DC36ACB6EC4396.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Content/beginPlay.umap'
+[2020.10.24-05.26.36:263][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/beginPlay_BuiltData" FILE="C:/Users/20150/Documents/Unreal Projects/model/Content/beginPlay_BuiltData.uasset" SILENT=true
+[2020.10.24-05.26.36:291][392]LogSavePackage: Moving 'C:/Users/20150/Documents/Unreal Projects/model/Saved/beginPlay_BuiltData08EB450847B0FCE18FE3E39E912A8B08.tmp' to 'C:/Users/20150/Documents/Unreal Projects/model/Content/beginPlay_BuiltData.uasset'
+[2020.10.24-05.26.36:311][392]AssetCheck: New page: 资产保存：多个资产
+[2020.10.24-05.26.36:311][392]LogContentValidation: Display: 正在验证World /Game/beginPlay.beginPlay
+[2020.10.24-05.26.36:311][392]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/beginPlay_BuiltData.beginPlay_BuiltData
